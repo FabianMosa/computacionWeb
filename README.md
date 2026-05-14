@@ -38,6 +38,10 @@ Abre [http://localhost:3000](http://localhost:3000). Healthcheck: [http://localh
 
 
 
+**TypeScript en `.js` (App Router):** `jsconfig.json` declara `jsx: "preserve"`, referencias Next en `next-env.d.ts` y dependencias de desarrollo `@types/react` / `@types/react-dom`, para que el analizador no marque TS17004 (*Cannot use JSX unless the '--jsx' flag is provided*) en páginas con JSX. Si el IDE sigue mostrando el aviso, recarga la ventana del editor.
+
+
+
 ## Tests
 
 
