@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    ".next",
+    "scripts/setup-cursor.cjs"
+  ]
+}

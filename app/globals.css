@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Tokens de marca (sincronizar con Figma: fileKey epNqrpzcyg7yc6hCivMva6).
+  Tema claro: `:root`. Tema oscuro: clase `dark` en `<html>`.
+  En claro, bordes `slate-300` y bloques `bg-slate-100` / `slate-200` en páginas
+  refuerzan segmentos; en oscuro se mantienen `dark:` equivalentes.
+*/
+:root {
+  --color-brand: #f1f5f9;
+  --color-brand-muted: #e2e8f0;
+  --color-brand-foreground: #0f172a;
+  --color-surface: #f8fafc;
+  --color-surface-elevated: #ffffff;
+  --color-accent: #d97706;
+  --color-accent-foreground: #fffbeb;
+  --radius-card: 0.75rem;
+  --radius-button: 0.5rem;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.dark {
+  --color-brand: #0f172a;
+  --color-brand-muted: #1e293b;
+  --color-brand-foreground: #f8fafc;
+  --color-surface: #020617;
+  --color-surface-elevated: #0b1220;
+  --color-accent: #f59e0b;
+  --color-accent-foreground: #0f172a;
+}
+
+body {
+  @apply bg-surface text-slate-900 antialiased dark:text-slate-100;
+}

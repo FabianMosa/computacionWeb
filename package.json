@@ -1,0 +1,25 @@
+{
+  "name": "computacion-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node --test lib/*.test.mjs scripts/*.test.mjs",
+    "secdevops:selftest": "node scripts/security-tool-middleware.mjs"
+  },
+  "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "eslint-config-next": "^16.2.6",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
