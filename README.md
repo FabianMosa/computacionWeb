@@ -42,6 +42,10 @@ Abre [http://localhost:3000](http://localhost:3000). Healthcheck: [http://localh
 
 
 
+## SDD (OpenSpec)
+
+Especificaciones versionadas en [openspec/](openspec/): configuración del proyecto en [openspec/config.yaml](openspec/config.yaml), spec base en [openspec/specs/web/spec.md](openspec/specs/web/spec.md), cambios activos en `openspec/changes/{nombre}/`.
+
 ## Tests
 
 

@@ -9,3 +9,4 @@ Este workspace **mezcla** la plantilla Cursor (`.cursor/`, `ai-team/`, `STACK.md
 - **Tests y orquestación:** `npm test` y relación con `ai-team/orchestrator.md` en [README.md](README.md) (sección *Tests*).
 - **Hero de inicio:** imagen local [public/Hero.avif](public/Hero.avif) referenciada como `/Hero.avif` en [lib/photo_refs.js](lib/photo_refs.js) (`hero_tecnico_computacion`).
 - **JS en el App Router:** `jsconfig.json` usa `checkJs` con `jsx: "preserve"`, plugin `next`, `next-env.d.ts` y `@types/react` / `@types/react-dom` para que el analizador acepte JSX en `.js` sin error TS17004.
+- **SDD (OpenSpec):** especificaciones y cambios en [openspec/](openspec/) — config en [openspec/config.yaml](openspec/config.yaml); baseline en [openspec/specs/web/spec.md](openspec/specs/web/spec.md). Comandos: `/sdd-explore`, `/sdd-propose`, etc.
